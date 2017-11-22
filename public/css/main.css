@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*header begin*/
+.header_top{
+	background-color: #faaf40;
+
+}
+.header_top_left{
+display: left;
+padding: 10px 0 0 0;
+}
+.header_top_left ul{
+ list-style-type: none; 
+}
+.header_top_left ul li{
+	display: inline-block;
+	width: 37px;
+}
+.header_top_right{
+	float: right;
+	padding: 10px 0 0 0;
+}
+.header_info li{
+	list-style-type: none;
+}
+.header_info{
+	display: inline-flex;
+	margin-left: 230px;
+}
+.header_info i,a { 
+	line-height: 35px;
+}
+.header_info i,li { 
+	padding-left: 5px;
+}
+.header_info img{
+	height: 37px;
+}
+.select_menh{
+	height: 42px;
+    border: 2px solid #faaf40;
+}
+.search_box{
+    width: 50%;
+    height: 42px;
+    border: 2px solid #faaf40;
+}
+
+/*header end*/
